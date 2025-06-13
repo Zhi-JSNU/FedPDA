@@ -6,7 +6,7 @@ FedPDA (Federated Learning with Personalized Dynamic Aggregation) is a federated
 
 Key Features
 
-- Support for multiple datasets: MNIST, Fashion-MNIST, CIFAR10, CIFAR100
+- Support for multiple datasets: MNIST, Fashion-MNIST, CIFAR10
 - Support for multiple deep learning models: ResNet18, VGG16, SimpleCNN, etc.
 - Support for IID and Non-IID data distribution scenarios
 - Similarity-based dynamic model migration strategy
@@ -42,7 +42,7 @@ python main.py --dataset cifar10 --num_clients 5 --num_rounds 100 --model_type r
 
 Key Parameters
 
-- `--dataset`: Choose dataset (cifar10/cifar100/mnist/fashion_mnist)
+- `--dataset`: Choose dataset (cifar10/mnist/fashion_mnist)
 - `--num_clients`: Number of clients
 - `--num_rounds`: Number of training rounds
 - `--model_type`: Model type (simple_cnn/resnet18/resnet50/vgg16)
@@ -71,10 +71,6 @@ python main.py --dataset cifar10 --distribution iid --num_clients 5 --num_rounds
 python main.py --dataset fashion_mnist --distribution non_iid --alpha 0.5 --num_clients 10 --num_rounds 150
 ```
 
-3. Run experiment with global aggregation:
-```bash
-python main.py --dataset mnist --global_aggregation --global_agg_rounds 5 --num_clients 8 --num_rounds 200
-```
 
 Output Description
 
