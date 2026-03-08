@@ -4,6 +4,8 @@ Project Overview
 
 FedPDA (Federated Learning with Personalized Dynamic Aggregation) is a federated learning framework based on personalized dynamic aggregation. It can dynamically adjust aggregation strategies according to client data distribution, model behavior, and resource conditions to improve federated learning performance.
 
+paper online: https://doi.org/10.1016/j.ins.2025.122553
+
 Key Features
 
 - Support for multiple datasets: MNIST, Fashion-MNIST, CIFAR10
